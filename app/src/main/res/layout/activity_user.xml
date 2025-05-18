@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_secondary"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Bienvenue dans My ApplicationRH"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textUserProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profil utilisateur"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnPointageEntree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pointer entrée" />
+
+    <TextView
+        android:id="@+id/textHeureEntree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Heure entrée : --"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnPointageSortie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pointer sortie"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/textHeureSortie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Heure sortie : --"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnShowPlanning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Afficher planning"
+        android:layout_marginTop="32dp" />
+
+    <Button
+        android:id="@+id/btnDemanderConge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Demander un congé"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Déconnexion"
+        android:layout_marginTop="32dp" />
+
+</LinearLayout>
