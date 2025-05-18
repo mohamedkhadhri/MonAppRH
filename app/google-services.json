@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "703864945801",
+    "firebase_url": "https://myapplicationrh-default-rtdb.firebaseio.com",
+    "project_id": "myapplicationrh",
+    "storage_bucket": "myapplicationrh.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703864945801:android:499b9e9ab0a4f8cd1a9a58",
+        "android_client_info": {
+          "package_name": "com.example.myapplicationrh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703864945801-t5u1jke8ucq3njvmt3vvp26nqqkgq5d3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjugZDokLvJ7dC8rbCn3hIP2I4C-QBwWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "703864945801-t5u1jke8ucq3njvmt3vvp26nqqkgq5d3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

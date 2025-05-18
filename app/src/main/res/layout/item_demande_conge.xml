@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#EEE"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/textRaison"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Raison: vacances"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textDates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Du 01/05/2025 au 05/05/2025" />
+
+    <!-- Nouveau TextView pour afficher l'utilisateur -->
+    <TextView
+        android:id="@+id/textUserId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Utilisateur : userId1"
+        android:layout_marginTop="4dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Statut: en attente"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textCauseRefus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cause refus : "
+        android:visibility="gone"
+        android:textColor="#D32F2F"
+        android:layout_marginTop="4dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+
+        <Button
+            android:id="@+id/btnAccepter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accepter" />
+
+        <Button
+            android:id="@+id/btnRefuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refuser"
+            android:layout_marginStart="16dp" />
+    </LinearLayout>
+</LinearLayout>
